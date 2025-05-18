@@ -94,6 +94,13 @@ def add_worker():
     conn.commit()
     return redirect('/')
 
+@app.route('/unassign_worker/<int:orderID>', methods=['POST'])
+def unassign_worker(orderID):
+    with conn.cursor() as cur:
+        cur.execute("UPDATE orders SET workID = NULL WHERE orderID = :1", (orderID,))
+    conn.commit()
+    return redirect('/')
+
 @app.route('/add_author', methods=['POST'])
 def add_author():
     with conn.cursor() as cur:
