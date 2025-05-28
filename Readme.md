@@ -5,7 +5,6 @@ It allows users to:
 
 - 📥 Add new books
 - 🗑️ Delete existing books
-- 📝 Update book details
 - 🔍 View current book inventory
 - 👤 Manage authors and staff
 
@@ -15,9 +14,5 @@ It provides a web interface for interacting with the store data — no external 
 ## 🧰 Tech Stack
 
 - Python (Flask)
-- HTML/CSS (Jinja templates)
-- SQLite (or your choice of DB)
-
-## 🚀 Getting Started
-
-For setup instructions, see [`setup.md`](./setup.md) in this repo.
+- HTML/CSS 
+- Oracle SQL 
