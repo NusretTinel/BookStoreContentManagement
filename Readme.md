@@ -1,4 +1,4 @@
-## 📚 Book Store Content Management System
+# Book Store Content Management System
 
 This is a simple content management system for a bookstore.  
 It allows users to:
